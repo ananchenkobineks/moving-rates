@@ -1,0 +1,124 @@
+#rates-form-editor #rates-data {
+	border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+#rates-form-editor .ui-sortable-handle {
+	cursor: default;
+	background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 15px;
+}
+#rates-form-editor #top-tabs > ul {
+	border-bottom: 1px solid #ccc;
+    padding: 9px 15px 0 10px;
+    margin: 0;
+}
+#rates-form-editor #top-tabs > ul li {
+	display: inline-block;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    margin: 0 4px -1px;
+    background-color: #e4e4e4;
+}
+#rates-form-editor #top-tabs > ul li:hover {
+	background-color: #f5f5f5;
+}
+
+#rates-form-editor #top-tabs > ul .ui-tabs-active {
+	background-color: #f5f5f5;
+	border-bottom-color: #f5f5f5;
+}
+#rates-form-editor #top-tabs > ul li a {
+	padding: 6px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+}
+#rates-form-editor .inside {
+	background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 16px;
+   	margin: 0;
+}
+
+#rates-form-editor .rates-panel-wrap {
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	box-shadow: 4px 4px 10px -3px rgba(0,0,0,.1);
+}
+#rates-form-editor .rates-panel-wrap ul {
+	margin: 0;
+    width: 20%;
+    float: left;
+    line-height: 1em;
+    padding: 0 0 10px;
+    position: relative;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+#rates-form-editor .rates-panel-wrap ul li {
+	background-color: #f2f2f2;
+	border-right: 1px solid #ddd;
+	margin: 0;
+    padding: 0;
+}
+#rates-form-editor .rates-panel-wrap ul .ui-tabs-active {
+	background-color: #fff;
+	border-right: 0;
+}
+#rates-form-editor .rates-panel-wrap ul li:hover {
+	background-color: #fff;
+}
+#rates-form-editor .rates-panel-wrap ul a {
+	margin: 0;
+    padding: 10px;
+    display: block;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 20px!important;
+    border-bottom: 1px solid #ddd;
+}
+#rates-form-editor .rates-panel-wrap .panel {
+	float: left;
+    width: 80%;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#rates-form-editor .rates-panel-wrap .panel .options_group:first-child {
+	border-bottom: 1px solid #eee;
+}
+#rates-form-editor .rates-panel-wrap .form-title {
+	padding-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+#rates-form-editor .rates-panel-wrap .form-field {
+	padding: 5px 20px 5px 162px;
+    line-height: 24px;
+}
+#rates-form-editor .rates-panel-wrap .form-field label {
+	float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -150px;
+}
+#rates-form-editor .rates-panel-wrap .form-field input,
+#rates-form-editor .rates-panel-wrap .form-field textarea {
+	width: 65%;
+	overflow: hidden;
+}
+.rates-postbox .postbox img {
+    max-width: 100%;
+}
+.image-remove {
+    margin-left: 15px;
+}
